@@ -1,4 +1,5 @@
 import { AppSidebar } from "~/components/app-sidebar"
+import { ModeToggle } from "~/components/mode-toggle"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -33,6 +34,7 @@ export default function Page() {
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
                   <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+                  <ModeToggle/>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
